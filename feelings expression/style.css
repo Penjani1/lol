@@ -1,0 +1,33 @@
+*{margin: 0; padding: 0;}
+.container{
+    height: 100vh;
+    width: 100vw;
+    color: #444;
+    background: pink;
+    text-align: center;
+}
+.thankfull,.open, .dont{
+    padding-top: 15%;
+}
+h2{font-size: 72px;margin-bottom: 30px;}
+.thankfull span{color: #fc9786;}
+.thankfull a{text-decoration: none;
+background:#eee;
+padding: 5px;
+margin: 5px 10px;
+border: 3px solid #ddd;
+border-radius: 10px;
+}
+#dont{color:red;}
+#open{color: green;}
+.open{
+    padding: 5px;
+}
+img{
+    height: 40px;width: 40px;animation: heart 3s linear infinite;
+}
+@keyframes heart{
+    0%{transform: scale(.5);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(.5);}
+}
